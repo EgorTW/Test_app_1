@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Amazon.Runtime.Internal.Transform;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -29,6 +30,11 @@ namespace Test_app_1
             {
                 {"MainPage", typeof(MainPage)},
                 {"QA", typeof(QA_page)},
+                {"Routes", typeof(Routes_page) },
+                {"Advises", typeof(Advises_page) },
+                {"Photos and videos",typeof(Media_page)},
+                {"Ratings", typeof(Ratings_page)},
+                {"Forum", typeof(Forum_page)},
             };
         }
         private async void ButtonClick(object sender, EventArgs e)

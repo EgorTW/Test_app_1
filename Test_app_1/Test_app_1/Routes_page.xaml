@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Test_app_1.Routes_page"
+             BackgroundImageSource="https://images.wallpapershq.com/wallpapers/110/thumbnail_350x622.jpg">
+    <StackLayout>
+        <Label Text="Welcome to Routes page!"
+        VerticalOptions="StartAndExpand" 
+        HorizontalOptions="CenterAndExpand" TextColor="Black"/>
+    </StackLayout>
+</ContentPage>
