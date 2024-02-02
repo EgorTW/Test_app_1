@@ -16,5 +16,8 @@ namespace Test_app_1
         {
             InitializeComponent();
         }
+
     }
+
+    var mongoService = new MongoDB("mongodb+srv://egbogachev:Fy;bUfyytn63!@clusterapp1.pcupio0.mongodb.net/?retryWrites=true&w=majority", )
 }
