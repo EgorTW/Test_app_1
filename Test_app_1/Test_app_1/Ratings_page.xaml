@@ -1,13 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
              x:Class="Test_app_1.Ratings_page"
              BackgroundImageSource="https://images.wallpapershq.com/wallpapers/110/thumbnail_350x622.jpg">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Ratings page!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="#e8a87c" Opacity="0.95" CornerRadius="15" VerticalOptions="CenterAndExpand"  >
+                    <StackLayout BackgroundColor="#e8a87c" Opacity="0.99">
+                        <Image BackgroundColor="#e8a87c" Opacity="0.9" Source="https://tur-ray.ru/wp-content/uploads/2017/09/Dvorets-zemledeltsev.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
+                        <Label Opacity="1.0" Text="Дворец Земледельцев" TextColor="Black" FontAttributes="Bold"/>
+                        <Label Opacity="1.0" Text="Рейтинг: 4.5" TextColor="Black" FontAttributes="Bold"/>
+                    </StackLayout>
+                </Frame>
+                <Frame BackgroundColor="#e8a87c" CornerRadius="15" VerticalOptions="CenterAndExpand" Opacity="0.95">
+                    <StackLayout>
+                        <Image Source="https://extraguide.ru/images/blog/2021/03-19-uv06mq-tsentr-semi-kazan.jpeg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
+                        <Label Text="Центр семьи &quot;Казан&quot;" TextColor="Black" FontAttributes="Bold"/>
+                        <Label Text="Рейтинг: 4.5" TextColor="Black" FontAttributes="Bold"/>
+                    </StackLayout>
+                </Frame>
+                <Frame BackgroundColor="#e8a87c" CornerRadius="15" VerticalOptions="CenterAndExpand" Opacity="0.95">
+                    <StackLayout>
+                        <Image Source="https://tripplanet.ru/wp-content/uploads/europe/russia/kazan/dostoprimechatelnosti-kazani.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
+                        <Label Text="Мечеть Кул Шариф" TextColor="Black" FontAttributes="Bold"/>
+                        <Label Text="Рейтинг: 5" TextColor="Black" FontAttributes="Bold"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

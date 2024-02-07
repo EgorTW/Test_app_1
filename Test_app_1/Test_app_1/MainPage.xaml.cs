@@ -6,9 +6,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using Xamarin.Essentials;
+
 
 namespace Test_app_1
 {
+    
     public partial class MainPage : ContentPage
     {
 
@@ -16,13 +19,15 @@ namespace Test_app_1
         {
             InitializeComponent();
 
-            WebView webView = new WebView
+            /*WebView webView = new WebView
             {
                 Source = "Map_API.html",
                 VerticalOptions = LayoutOptions.StartAndExpand
-            };
+            };*/
 
         }
+
+        
 
         public static class PageDictionary
         {
