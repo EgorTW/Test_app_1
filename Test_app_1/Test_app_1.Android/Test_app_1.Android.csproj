@@ -64,6 +64,18 @@
     <PackageReference Include="MongoDB.Driver">
       <Version>2.23.1</Version>
     </PackageReference>
+    <PackageReference Include="Xamarin.Firebase.Analytics">
+      <Version>121.3.0.4</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Firebase.Database">
+      <Version>120.3.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Firebase.Firestore">
+      <Version>124.9.1.1</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Firebase.Messaging">
+      <Version>123.3.1.1</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2622" />
     <PackageReference Include="Xamarin.Essentials" Version="1.8.1" />
     <PackageReference Include="Xamarin.GooglePlayServices.Base">

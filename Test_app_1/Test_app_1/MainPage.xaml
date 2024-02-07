@@ -16,8 +16,8 @@
             <Button BackgroundColor="#e8a87c" Text="Ratings" HorizontalOptions="FillAndExpand" VerticalOptions="End" CornerRadius="10" Clicked="switchPage"/>
             <Button BackgroundColor="#e8a87c" Text="Forum" HorizontalOptions="FillAndExpand" VerticalOptions="End" CornerRadius="10" Clicked="switchPage"/>
             <Button BackgroundColor="#e8a87c" Text="Advises" HorizontalOptions="FillAndExpand" VerticalOptions="End" CornerRadius="10" Clicked="switchPage"/>
-            <Button BackgroundColor="#e8a87c" Text="QA" HorizontalOptions="FillAndExpand" VerticalOptions="End" CornerRadius="10" Clicked="switchPage"/>
             <Button BackgroundColor="#e8a87c" Text="Photos and videos" HorizontalOptions="FillAndExpand" VerticalOptions="End" CornerRadius="10" Clicked="switchPage"/>
+            <Button BackgroundColor="#e8a87c" Text="QA" HorizontalOptions="FillAndExpand" VerticalOptions="End" CornerRadius="10" Clicked="switchPage"/>
             <Label x:Name="redirText" Text="" HorizontalOptions="Center" TextColor="Black"/>
 
 

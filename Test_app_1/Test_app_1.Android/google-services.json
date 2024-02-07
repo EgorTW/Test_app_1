@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "353071940197",
+    "project_id": "diplomapp-66161",
+    "storage_bucket": "diplomapp-66161.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353071940197:android:3ff8e1f9f89cfa29643c8c",
+        "android_client_info": {
+          "package_name": "com.companyname.test_app_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4YS-SiEqa1JKU4wLiPgwp8CKXq9BYxOg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
