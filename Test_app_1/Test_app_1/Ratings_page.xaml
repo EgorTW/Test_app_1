@@ -7,21 +7,21 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
-                <Frame BackgroundColor="#e8a87c" Opacity="0.95" CornerRadius="15" VerticalOptions="CenterAndExpand"  >
-                    <StackLayout BackgroundColor="#e8a87c" Opacity="0.99">
-                        <Image BackgroundColor="#e8a87c" Opacity="0.9" Source="https://tur-ray.ru/wp-content/uploads/2017/09/Dvorets-zemledeltsev.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
+                <Frame BackgroundColor="#529ceb"  CornerRadius="15" VerticalOptions="CenterAndExpand" Opacity="0.9" >
+                    <StackLayout BackgroundColor="#529ceb" >
+                        <Image BackgroundColor="#529ceb"  Source="https://tur-ray.ru/wp-content/uploads/2017/09/Dvorets-zemledeltsev.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
                         <Label Opacity="1.0" Text="Дворец Земледельцев" TextColor="Black" FontAttributes="Bold"/>
                         <Label Opacity="1.0" Text="Рейтинг: 4.5" TextColor="Black" FontAttributes="Bold"/>
                     </StackLayout>
                 </Frame>
-                <Frame BackgroundColor="#e8a87c" CornerRadius="15" VerticalOptions="CenterAndExpand" Opacity="0.95">
+                <Frame BackgroundColor="#529ceb"  CornerRadius="15" VerticalOptions="CenterAndExpand" Opacity="0.95">
                     <StackLayout>
                         <Image Source="https://extraguide.ru/images/blog/2021/03-19-uv06mq-tsentr-semi-kazan.jpeg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
                         <Label Text="Центр семьи &quot;Казан&quot;" TextColor="Black" FontAttributes="Bold"/>
                         <Label Text="Рейтинг: 4.5" TextColor="Black" FontAttributes="Bold"/>
                     </StackLayout>
                 </Frame>
-                <Frame BackgroundColor="#e8a87c" CornerRadius="15" VerticalOptions="CenterAndExpand" Opacity="0.95">
+                <Frame BackgroundColor="#529ceb"  CornerRadius="15" VerticalOptions="CenterAndExpand" Opacity="0.95">
                     <StackLayout>
                         <Image Source="https://tripplanet.ru/wp-content/uploads/europe/russia/kazan/dostoprimechatelnosti-kazani.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
                         <Label Text="Мечеть Кул Шариф" TextColor="Black" FontAttributes="Bold"/>
