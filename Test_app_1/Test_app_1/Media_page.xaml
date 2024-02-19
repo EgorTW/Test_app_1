@@ -8,6 +8,7 @@
             <Label Text="Welcome to Media page!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+            <Button Text="Upload image" Clicked="Upload"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
