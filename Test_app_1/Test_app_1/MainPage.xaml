@@ -5,13 +5,14 @@
              BackgroundImageSource="https://images.wallpapershq.com/wallpapers/110/thumbnail_350x622.jpg">
 
 
-    <ScrollView Padding="5, 0">
+    <ScrollView Padding="5, 0" Opacity="0.8">
         <StackLayout>
 
             <Label Text="App name" FontSize="20" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
-            <Frame CornerRadius="10" Margin="0,5,0,20" BackgroundColor="#7d7d7d" >
+            <Frame CornerRadius="10" Margin="0,5,0,20" BackgroundColor="#7d7d7d" Opacity="0.8">
                 <WebView/>
             </Frame>
+
             <Button BackgroundColor="#2296f3" Text="Routes" HorizontalOptions="FillAndExpand" VerticalOptions="End" CornerRadius="10" Clicked="switchPage"/>
             <Button BackgroundColor="#2296f3" Text="Ratings" HorizontalOptions="FillAndExpand" VerticalOptions="End" CornerRadius="10" Clicked="switchPage"/>
             <Button BackgroundColor="#2296f3" Text="Forum" HorizontalOptions="FillAndExpand" VerticalOptions="End" CornerRadius="10" Clicked="switchPage"/>
