@@ -12,13 +12,13 @@
             <Frame CornerRadius="10" Margin="0,5,0,20" BackgroundColor="#7d7d7d" Opacity="0.8">
                 <WebView/>
             </Frame>
-            <Button BackgroundColor="#529ceb"  Text="Routes" HorizontalOptions="FillAndExpand" VerticalOptions="End" CornerRadius="10" Clicked="switchPage" FontAttributes="Bold"/>
-            <Button BackgroundColor="#529ceb"  Text="Ratings" HorizontalOptions="FillAndExpand" VerticalOptions="End" CornerRadius="10" Clicked="switchPage" FontAttributes="Bold"/>
-            <Button BackgroundColor="#529ceb"  Text="Forum" HorizontalOptions="FillAndExpand" VerticalOptions="End" CornerRadius="10" Clicked="switchPage" FontAttributes="Bold"/>
-            <Button BackgroundColor="#529ceb"  Text="Advises" HorizontalOptions="FillAndExpand" VerticalOptions="End" CornerRadius="10" Clicked="switchPage" FontAttributes="Bold"/>
-            <Button BackgroundColor="#529ceb"  Text="Photos and videos" HorizontalOptions="FillAndExpand" VerticalOptions="End" CornerRadius="10" Clicked="switchPage" FontAttributes="Bold"/>
-            <Button BackgroundColor="#529ceb"  Text="QA" HorizontalOptions="FillAndExpand" VerticalOptions="End" CornerRadius="10" Clicked="switchPage"/>
-            <!--<Button BackgroundColor="#e8a87c" Text="QA" HorizontalOptions="FillAndExpand" VerticalOptions="End" CornerRadius="10" Clicked="switchPage"/>-->
+
+            <Button BackgroundColor="#2296f3" Text="Routes" HorizontalOptions="FillAndExpand" VerticalOptions="End" CornerRadius="10" Clicked="switchPage"/>
+            <Button BackgroundColor="#2296f3" Text="Ratings" HorizontalOptions="FillAndExpand" VerticalOptions="End" CornerRadius="10" Clicked="switchPage"/>
+            <Button BackgroundColor="#2296f3" Text="Forum" HorizontalOptions="FillAndExpand" VerticalOptions="End" CornerRadius="10" Clicked="switchPage"/>
+            <Button BackgroundColor="#2296f3" Text="Advises" HorizontalOptions="FillAndExpand" VerticalOptions="End" CornerRadius="10" Clicked="switchPage"/>
+            <Button BackgroundColor="#2296f3" Text="Photos and videos" HorizontalOptions="FillAndExpand" VerticalOptions="End" CornerRadius="10" Clicked="switchPage"/>
+            <Button BackgroundColor="#2296f3" Text="QA" HorizontalOptions="FillAndExpand" VerticalOptions="End" CornerRadius="10" Clicked="switchPage"/>
             <Label x:Name="redirText" Text="" HorizontalOptions="Center" TextColor="Black"/>
 
 
